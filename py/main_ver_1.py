@@ -1,5 +1,6 @@
 # import data_source_ver_N as ds
-import markdown2output_ver_1.py  as m2o
+# Необходимо наличие Pandoc, например установить choco install pandoc
+import markdown2output_ver_1 as m2o
 
 
 tmpl_category_file="tmpl/category_ver_1.md"
