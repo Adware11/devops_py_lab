@@ -19,4 +19,4 @@ with open(out_md_file, "w") as outfile:
         outfile.write("\n")
 
 # преобразовать в pptx 
-m2o.convert_to_pptx(out_md_file, out_pptx_file) 
+m2o.convert_to_pptx(out_md_file, out_pptx_file)  
