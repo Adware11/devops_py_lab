@@ -1,6 +1,5 @@
 # import data_source_ver_N as ds
-# Необходимо наличие Pandoc, например установить choco install pandoc
-import markdown2output_ver_1 as m2o
+import markdown2output_ver_1.py  as m2o
 
 
 tmpl_category_file="tmpl/category_ver_1.md"
@@ -20,4 +19,4 @@ with open(out_md_file, "w") as outfile:
         outfile.write("\n")
 
 # преобразовать в pptx 
-m2o.convert_to_pptx(out_md_file, out_pptx_file)  
+m2o.convert_to_pptx(out_md_file, out_pptx_file) 

@@ -1,4 +1,4 @@
-# Необходимо наличие Pandoc, например установить choco install pandoc
+# Необходимо наличие Pandoc, установить choco install pandoc
 
 import subprocess
 
